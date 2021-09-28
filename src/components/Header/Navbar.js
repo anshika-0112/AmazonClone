@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../../componentStyle/navbar.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const itemsCount = useSelector((state) => state.basket.itemCount);

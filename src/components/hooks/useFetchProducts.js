@@ -15,7 +15,7 @@ const useFetchProducts = () => {
       console.log("products", products);
     };
     fetchProducts();
-  }, []);
+  });
   return { products, fetched };
 };
 

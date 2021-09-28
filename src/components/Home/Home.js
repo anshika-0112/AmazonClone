@@ -10,7 +10,7 @@ const Home = () => {
   console.log("products", products);
   return (
     <div id="home">
-      <img src={bannerImg} className="home-image" />
+      <img src={bannerImg} className="home-image" alt="Error" />
       <div id="productContainer">
         {fetched &&
           products.map((product) => {

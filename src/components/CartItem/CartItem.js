@@ -14,7 +14,7 @@ const CartItem = ({ item }) => {
   return (
     <div className="cartItem">
       <div id="itemImageContainer">
-        <img src={item.image} className="itemImage"></img>
+        <img src={item.image} className="itemImage" alt="Error"></img>
       </div>
       <div id="itemInfoContainer">
         <h3>{item.title}</h3>

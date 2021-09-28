@@ -18,7 +18,7 @@ const Product = ({ product }) => {
       <p className="product-info">{product.title}</p>
       <p className="product-price">Price: ${product.price}</p>
       <p className="product-rating">Rating: {product.rating.rate}</p>
-      <img src={product.image} className="product-img" />
+      <img src={product.image} className="product-img" alt="Error" />
       <button onClick={addToBasket}>Add to Basket</button>
     </div>
   );
