@@ -1,0 +1,23 @@
+.itemImage {
+  max-height: 120px;
+}
+
+.cartItem {
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+}
+
+#itemImageContainer {
+  margin: 10px;
+}
+
+#removeItem {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  padding: 2px;
+  cursor: pointer;
+}
